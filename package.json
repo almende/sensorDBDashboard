@@ -1,0 +1,18 @@
+{
+  "name": "sensordbdashboard",
+  "version": "1.0.0",
+  "description": "Dashboard for visualizing the sensor data in the Swell AgentDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ludo Stellingwerff",
+  "repository": "https://github.com/almende/sensorDBDashboard.git",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "bootswatch": "^3.3.7",
+    "jquery": "^3.1.1",
+    "moment": "^2.16.0",
+    "vis": "^4.17.0"
+  }
+}
