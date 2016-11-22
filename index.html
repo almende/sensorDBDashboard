@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <head lang="en">
-        <meta charset="UTF-8">
-        <title>Swell Dashboard</title>
-        <link href="node_modules/bootswatch/flatly/bootstrap.min.css" type="text/css" rel="stylesheet" />
-        <link href="node_modules/vis/dist/vis.min.css" type="text/css" rel="stylesheet" />
-        <link href="assets/css/styles.css" type="text/css" rel="stylesheet" /></head>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Swell Dashboard</title>
+    <link href="node_modules/bootswatch/flatly/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="node_modules/vis/dist/vis.min.css" type="text/css" rel="stylesheet"/>
+    <link href="assets/css/styles.css" type="text/css" rel="stylesheet"/>
+</head>
 <body>
+<!--<div id="graph1"></div>-->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div id="graph1"></div>
+        </div>
+        <div class="col-sm-4">
+            <div id="graph2"></div>
+        </div>
+        <div class="col-sm-4">
+            <div id="graph3"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div id="graph4"></div>
+        </div>
+        <div class="col-sm-4">
+            <div id="graph5"></div>
+        </div>
+        <div class="col-sm-4">
+            <div id="graph6"></div>
+        </div>
+    </div>
+</div>
 
+<!-- The Modernizr Library (Generated with: ./bin/modernizr -c lib/config-all.json) -->
+<!--<script src="node_modules/modernizr/modernizr.js"></script>-->
 
 <!-- The jQuery library -->
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
@@ -17,7 +44,7 @@
 <script src="node_modules/moment/moment.js"></script>
 
 <!-- The Vis.js library -->
-<script src="node_modules/vis/dist/vis.min.js"></script>
+<script src="node_modules/vis/dist/vis.js"></script>
 
 <!-- Including our own JavaScript file -->
 <script src="assets/js/script.js"></script>
